@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
 <head>
     <meta charset="UTF-8">
     <title>The Jobs</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
 </head>
 <body>
-<H1>The Jobs</H1>
+
+<div class="container-fluid text-center">
+    <H1>The Jobs</H1>
+    <a class="h2" th:href="@{/createUser.html}">Register</a>
+</div>
 </body>
 </html>
