@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Jobs | Browse Jobs</title>
+    <style>
+        body {
+            background-color: beige;
+            font-family: Corbel;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: auto;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .login-icon {
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+        .search-container {
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-family: Corbel;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .containerBody {
+            max-width: 300px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            height: 300px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            flex: 1;
+            vertical-align: top;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="/demo1/src/main/resources/static/images/TheJobsLogo.png" alt="Logo"style="width: 50px; height: 50px;">
+        </a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="jobPage.html">Jobs</a></li>
+        <li><a href="consultantPage.html">Consultants</a></li>
+        <li><a href="profile.html">Profile</a></li>
+    </ul>
+    <div class="login-icon" onclick="redirectToLoginPage()">
+        &#x1F464; <!-- Unicode character for user icon -->
+    </div>
+</div>
+
+<h1>Discover Job Listings</h1>
+
+<div>
+    <div  style="margin-right: 50px ; margin-left: 90px" class="containerBody">
+        <h1>Create Appointments</h1>
+        <p>Create appointments to meet with our certified consultants as per your convenience, click to know
+            more.</p>
+    </div>
+    <div style="margin-right: 50px " class="containerBody">
+        <h1>Discover Jobs</h1>
+        <p>Explore job opportunities, we have 100+ openings in 4 countries!</p>
+    </div>
+    <div style="margin-right: 50px " class="containerBody">
+        <h1>Explore The Consultant Panel</h1>
+        <p>Find our highly talented and certified team of consultants to help you land the job of your dreams</p>
+    </div>
+    <div class="containerBody">
+        <h1>Explore The Consultant Panel</h1>
+        <p>Find our highly talented and certified team of consultants to help you land the job of your dreams</p>
+    </div>
+</div>
+<div>
+    <div  style="margin-right: 50px ; margin-left: 90px" class="containerBody">
+        <h1>Create Appointments</h1>
+        <p>Create appointments to meet with our certified consultants as per your convenience, click to know
+            more.</p>
+    </div>
+    <div style="margin-right: 50px " class="containerBody">
+        <h1>Discover Jobs</h1>
+        <p>Explore job opportunities, we have 100+ openings in 4 countries!</p>
+    </div>
+    <div style="margin-right: 50px " class="containerBody">
+        <h1>Explore The Consultant Panel</h1>
+        <p>Find our highly talented and certified team of consultants to help you land the job of your dreams</p>
+    </div>
+    <div class="containerBody">
+        <h1>Explore The Consultant Panel</h1>
+        <p>Find our highly talented and certified team of consultants to help you land the job of your dreams</p>
+    </div>
+</div>
+</body>
+</html>
